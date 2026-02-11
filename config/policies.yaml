@@ -1,0 +1,31 @@
+# Healthcare AI Gateway - Policy Configuration
+# These rules determine routing and compliance decisions
+
+rules:
+  # Example: Custom rule for specific healthcare workflow
+  # - name: epic_integration_rule
+  #   description: Rules for Epic EHR integration
+  #   priority: 95
+  #   enabled: true
+  #   conditions:
+  #     source_system: "epic"
+ #     data_classification: "phi"
+  #   actions:
+  #     allowed_providers:
+  #       - "anthropic"
+  #     allowed_models:
+  #       - "claude-3-opus-20240229"
+  #     require_human_review: true
+  #     audit_level: "full"
+
+  # Example: Cost optimization for non-sensitive operations
+  # - name: cost_optimization_admin
+  #   description: Use cheaper models for admin tasks
+  #   priority: 20
+  #   enabled: true
+  #   conditions:
+  #     data_classification: "public"
+  #     task_type: "administrative"
+  #   actions:
+  #     optimize_for: "cost"
+  #     preferred_model: "claude-3-haiku-20240307"
