@@ -1,5 +1,12 @@
 # healthcare-ai-gateway
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/healthcare-ai-gateway/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/healthcare-ai-gateway/actions)
+![License](https://img.shields.io/github/license/yksanjo/healthcare-ai-gateway)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/healthcare-ai-gateway)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/healthcare-ai-gateway)
+
 ## Detailed Description
 
 healthcare-ai-gateway is maintained as an industry-grade software project with production-ready engineering practices.  
